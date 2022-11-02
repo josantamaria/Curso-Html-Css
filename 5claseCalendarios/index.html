@@ -9,11 +9,12 @@
   <body>
     <!-- Formulario tipo viaje -->
     <!-- Hay dos formas -->
-    <form action="">
+    <!-- 1. Forma compleja -->
+    <!-- <form action="">
       <label for="hora">
         <span>hora</span>
         <!-- notar que el valor de for, id y name es sel mismo -->
-        <input type="time" id="hora" name="hora">
+        <!-- <input type="time" id="hora" name="hora">
       </label>
 
       <label for="dia">
@@ -32,6 +33,15 @@
       </label>
 
       <input type="submit">
+    </form> -->
+
+    <!-- Forma sencilla -> Todo en uno-->
+    <form action="">
+      <label for="calendario">
+        <span>Calendario</span>
+        <input type="datetime-local" id="calendario" name="calendario"/>
+      </label>
+      <input type="submit" />
     </form>
   </body>
 </html>
