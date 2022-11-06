@@ -1,0 +1,39 @@
+.main-nav{
+  margin-top: 10px;
+  list-style: none;
+  /* Espacio interno en la caja */
+  padding-left: 0px; 
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a{
+  color: antiquewhite;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* pseudoclases, definen el estilo de un estado, se llama con : */
+/* Cuando el mouse está sobre el elemento */
+.main-nav__item a:hover{
+  color: blue;
+}
+
+/* Cuando clickeamos el elemento */
+.main-nav__item a:active{
+  color: crimson;
+}
+
+/* pseudoelementos, definene el estilo de un elemento, se llama con :: */
+.main-nav__item a::after{
+  content: " | ";
+}
+
+
+
+
+

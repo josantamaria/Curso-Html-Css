@@ -1,0 +1,21 @@
+/* Forma para editar los estilos por defecto del navegador */
+/* Selector universal */
+* {
+  /* Sólo recalcula el padding y el border  */
+  box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
+}
+
+html{
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  font-size: inherit;
+}
+
+
+
+

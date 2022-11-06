@@ -1,0 +1,18 @@
+/* 1ra forma de referenciar: por el elemento */
+p {
+  color: green;
+  font-size: 40px;
+}
+
+/* 2da forma de referenciar: class */
+
+.parrafo{
+  color: blueviolet;
+}
+
+/* 3ra forma de referenciar: ID */
+
+#texto{
+  color: chartreuse;
+  font-size: 24px;
+}
